@@ -1,0 +1,12 @@
+#params:
+min_contig_length: 1000
+megahit_memory: 180
+spades_memory: 180
+metawrap_memory: 180
+
+#paths: 
+read_dir: reads
+checkm2_env: /vortexfs1/home/rayna.hamilton/anaconda3/envs/checkm2
+dram_env: /vortexfs1/home/rayna.hamilton/anaconda3/envs/dram
+adapters_file: /proj/omics/pachiadaki/OMZ/identifiers/all-adapters.fa
+path_to_multiqc: /vortexfs1/home/rayna.hamilton/.conda/envs/python3/bin/multiqc
