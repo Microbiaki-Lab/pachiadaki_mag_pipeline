@@ -1,6 +1,6 @@
 # Pipeline to acquire metagenome-assembled genomes (MAGs) from environmental DNA sequencing data
 
-This repository documents the current process used by the Pachiadaki lab at Woods Hole Oceanographic institutions to assemble and characterize prokaryotic MAGs from metagenomic reads.  The snakemake pipeline contains the following high-level steps:
+This repository documents the current process used by the Pachiadaki lab at Woods Hole Oceanographic Institution to assemble and characterize prokaryotic MAGs from metagenomic reads.  The snakemake pipeline contains the following high-level steps:
 
 * Read trimming and quality assessment using [trimmomatic](https://pmc.ncbi.nlm.nih.gov/articles/PMC4103590/), [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) and [MultiQC](https://github.com/MultiQC/MultiQC)
 * Genome assembly using both [Megahit](https://academic.oup.com/bioinformatics/article/31/10/1674/177884) and [Spades](https://pmc.ncbi.nlm.nih.gov/articles/PMC5411777/) 
